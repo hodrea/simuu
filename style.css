@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+nav {
+    background-color: #000;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover {
+    background-color: pink;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: black;
+    min-width: 455px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table{
+    width: 100%;
+}
+
+.blogdiv{
+    border: 3px solid pink;
+    margin: 15px;
+}
+
+.blogdiv::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.blogimg{
+    float: left;
+    margin:5px;
+}
+
+.divp2{
+    padding:70px 0;
+
+}
+
+h1{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+a{
+    font-family: 'Rowdies', cursive;
+}
+
+p{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+}
